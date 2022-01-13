@@ -1,7 +1,4 @@
-# Second tutorial in image processing
-# Description can be found [here](https://lukakozina6.wixsite.com/cvlab/post/new-changes-new-you) 
-
-
+# Second tutorial on image processing
 
 
 import cv2 
