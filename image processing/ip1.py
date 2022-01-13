@@ -1,8 +1,15 @@
+# First tutorial in image processing
+# Description can be found here: 
+
+
+
+
+
 import PIL
 from PIL import Image, ImageFilter, ImageFont, ImageDraw
   
 # Location of the image
-img = Image.open("/home/marija/OpenCV/data/squirrel.jpg")
+img = Image.open("squirrel.jpg")
 #img = img.rotate(90, PIL.Image.NEAREST, expand = 1)
 #img = img.transpose(method=Image.FLIP_TOP_BOTTOM)
 #img = img.transpose(method=Image.FLIP_LEFT_RIGHT)
@@ -26,7 +33,7 @@ draw = ImageDraw.Draw(img)
 draw.text((100, 70), "THIS IS SQUIRREL", font = font, fill=(0, 0, 255))
 
 
-img.save("/home/marija/OpenCV/data/crop.jpg")
+img.save("new_img.jpg")
 img.show()
 
 print(img.size)
