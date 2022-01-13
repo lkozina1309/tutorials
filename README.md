@@ -32,5 +32,4 @@ We'll start with Computer Vision and learn processing of images and videos. It w
 
 All those applications are we going to use for our Guidance, Control and Navigation purposes. One of the most exciting usage is going to be object avoidance algorithms, but there will be many more. 
 
-You can find descriptions of these codes on my blog:
-https://lukakozina6.wixsite.com/cvlab
+List of all these tutorials can be found [here](https://github.com/lkozina1309/tutorials/blob/main/Tutorial_list.md)
