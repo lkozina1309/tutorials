@@ -1,8 +1,4 @@
 # First tutorial in image processing
-# Description can be found here: 
-
-
-
 
 
 import PIL
