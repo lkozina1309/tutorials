@@ -14,9 +14,9 @@ from matplotlib import pyplot as plt
 #		cv2.imshow('Mount',img)
 
 
-img = cv2.imread('/home/marija/OpenCV/data/mount.jpeg')
+img = cv2.imread('mount.jpeg')
 img2 = np.zeros((1000, 1000, 3), np.uint8)
-img3 = cv2.imread("/home/marija/OpenCV/data/water_balloons.jpg")
+img3 = cv2.imread("water_balloons.jpg")
 img = cv2.resize(img, (1000, 1000))
 img3 = cv2.resize(img3, (1000, 1000))
 
@@ -61,6 +61,6 @@ addW_img = cv2.addWeighted(img, .7, img3, .3, 0);
 #cv2.imshow("Added image", added_img)
 cv2.imshow("AddWeighted image", addW_img)
 #cv2.setMouseCallback('Mount', click)
-#cv2.imwrite('/home/marija/OpenCV/data/new_img.jpg', addW_img)
+#cv2.imwrite('new_img.jpg', addW_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
