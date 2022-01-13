@@ -1,5 +1,6 @@
 # Second tutorial in image processing
 # Description can be found here :  https://lukakozina6.wixsite.com/cvlab/post/new-changes-new-you 
+# This site was built using [GitHub Pages](https://pages.github.com/)
 
 
 
