@@ -1,3 +1,8 @@
+# Second tutorial in image processing
+# Description can be found here :  https://lukakozina6.wixsite.com/cvlab/post/new-changes-new-you
+
+
+
 import cv2 
 import numpy as np
 from matplotlib import pyplot as plt
